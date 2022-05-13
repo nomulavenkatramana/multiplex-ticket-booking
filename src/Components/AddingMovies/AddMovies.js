@@ -5,14 +5,14 @@ import axios from 'axios'
 
 const AddMovies = ()=>{
 const[user , setuser] =useState ({
-    movie_Id : "",
-    movie_name: "",   
+    movieid : "",
+    movieName: "",   
     movie_Time : "",
     Hall_Id : "",
 
 });
 
-    const{  movie_Id, movie_name, movie_Time, Hall_Id }=user;
+    const{  movieId, movieName, movie_Time, Hall_Id }=user;
 
     const onInputChange = e =>{
         setuser({ ...user,[e.target.name]:e.target.value});
@@ -20,7 +20,7 @@ const[user , setuser] =useState ({
 
         const onSubmit = async e =>{
             e.preventDefault();
-            await axios.post("",user)
+            await axios.post("http://localhost:8080/addmovie",user)
             alert ('Movies Details Added')
         };
 
@@ -38,7 +38,7 @@ const[user , setuser] =useState ({
                                className="form-control form-control-lg"
                                placeholder="Enter Movie Id"
                                name="movie_Id"
-                               value={movie_Id}
+                               value={movieId}
                                onChange={e=> onInputChange(e)}
                                />
                          </div>
@@ -48,8 +48,8 @@ const[user , setuser] =useState ({
                                type="text"
                                className="form-control form-control-lg"
                                placeholder="Enter Movie name"
-                               name="movie_name"
-                               value={movie_name}
+                               name="movieName"
+                               value={movieName}
                                onChange={e=> onInputChange(e)}
                                />
                          </div>
