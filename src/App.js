@@ -1,16 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//  import ShowDetails from './Component/Service/ShowDetails';
-// import PublishShowComponent from './Component/PublishShowComponent';
+import EarningReport from './Components/EarningReport/EarningReport'
+import Searchdata from './Components/SearchData/SearchData';
 import AddMovies from './Component/Service/AddMovies';
 
 function App() {
   return (
-     <div className="App">
-       {/* <ShowDetails/> */}
-      {/* <PublishShowComponent/> */}
-      <AddMovies/>
+    <div className="App">
+      <EarningReport />
+      <Searchdata />
+    <AddMovies/>
     </div>
   );
 }
