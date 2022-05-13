@@ -26,13 +26,13 @@ const[user , setuser] =useState ({
 
 
     return(
-        <div className="container bg-light mt-4">
-             <div class="row">
+        <div className="container bg-light mt-4 .bg-danger">
+             <div class="row ">
                  <div className="col-sm-4 mx-auto shadow p-5">
                      <h2 className="text-centre mb-4">Add Movie</h2>
                      <form onSubmit={e=> onSubmit(e)}>
 
-                         <div className="form-group">
+                         <div className="form-group mb-2">
                              <input
                                type="text"
                                className="form-control form-control-lg"
@@ -43,7 +43,7 @@ const[user , setuser] =useState ({
                                />
                          </div>
 
-                         <div className="form-group">
+                         <div className="form-group mb-2">
                              <input
                                type="text"
                                className="form-control form-control-lg"
@@ -54,7 +54,7 @@ const[user , setuser] =useState ({
                                />
                          </div>
 
-                         <div className="form-group">
+                         <div className="form-group mb-2">
                              <input
                                type="text"
                                className="form-control form-control-lg"
@@ -65,7 +65,7 @@ const[user , setuser] =useState ({
                                />
                          </div>
 
-                         <div className="form-group">
+                         <div className="form-group mb-2">
                              <input
                                type="text"
                                className="form-control form-control-lg"
