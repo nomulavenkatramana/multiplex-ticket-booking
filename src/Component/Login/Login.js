@@ -47,7 +47,7 @@ class Login extends React.Component {
     <div>
       <div className="container">
         <center>
-          <h2>LOGIN PAGE</h2>
+          <h2>LOGIN</h2>
         </center>
         <div className="row mt-5">
           <div className="col-md-4"></div>

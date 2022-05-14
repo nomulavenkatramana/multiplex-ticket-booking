@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import logo from '../../images/ticket.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function Home(){
     return(
         <div><nav className="navbar navbar-expand-lg navbar-light bg-light">
