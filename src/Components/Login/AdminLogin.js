@@ -1,7 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom"
 
-class Login extends React.Component {
+
+class AdminLogin extends React.Component {
 
   state = {
       email:'',
@@ -9,6 +10,7 @@ class Login extends React.Component {
       emailErr:'',
       passwordErr:'',  
   }
+  
 
   handleChange = (e) =>{
     // console.log(e)
@@ -48,7 +50,7 @@ class Login extends React.Component {
     <div>
       <div className="container">
         <center>
-          <h2>LOGIN </h2>
+          <h2>Admin Login </h2>
         </center>
         <div className="row mt-5">
           <div className="col-md-4"></div>
@@ -79,10 +81,13 @@ class Login extends React.Component {
               </div>
               <span className="text-danger">{this.state.passwordErr}</span>
 
-              <button  className="btn btn-primary">
+              <button   className="btn btn-primary">
                 Submit
               </button>
-              <Link to="/Adminlogin" class="nav-link px-2 link-dark" >AdminLogin</Link>
+              
+              <Link to="/AddMovies" class="nav-link px-2 link-dark" >AddMovies</Link>
+              <Link to="/EarningReport" class="nav-link px-2 link-dark" >EarningReport</Link>
+              
               
           
             </form>
@@ -96,4 +101,4 @@ class Login extends React.Component {
 }
 }
 
-export default Login;
+export default AdminLogin;

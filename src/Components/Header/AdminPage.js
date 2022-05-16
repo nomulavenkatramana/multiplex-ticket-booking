@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link} from 'react-router-dom'
 
-function Header(){
+function AdminPage(){
     return (
   <header class="p-3 mb-3 border-bottom">
     <div class="container">
@@ -12,8 +12,8 @@ function Header(){
           <li><Link to="/earningReport" class="nav-link px-2 link-secondary">Earning Report</Link></li>
           <li><Link to="/addMovies" class="nav-link px-2 link-dark">Add Movies</Link></li>
           {/* <li><Link to="/searchData"class="nav-link px-2 link-dark">SearchData</Link></li> */}
-          <li><Link to="/Login" class="nav-link px-2 link-dark">Login</Link></li>
-          <li><Link to="/Register" class="nav-link px-2 link-dark">Sign up</Link></li>
+          {/* <li><Link to="/Login" class="nav-link px-2 link-dark">Login</Link></li> */}
+          {/* <li><Link to="/Register" class="nav-link px-2 link-dark">Sign up</Link></li> */}
          
         </ul>
 
@@ -38,4 +38,4 @@ function Header(){
   </header>
     )
 }
-export default Header
+export default AdminPage
