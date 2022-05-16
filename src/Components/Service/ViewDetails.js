@@ -81,7 +81,7 @@ function ViewDetails(){
           {/* // fifth movie */}
           <div className='col-md-4'>
                   <div className="card p-4">
-                  <img src="./movieimages/Jurassix world.jpg" className="card-imp-top" alt= "Jurassic World: Dominion" />
+                  <img src="../../../public/movieImages/jurassic world dominion.jpg" className="card-imp-top" alt= "Jurassic World: Dominion" />
                   <div className="card-body">
                       <h5 className="Jurassic World: Dominion">Jurassic World: Dominion</h5>
                       <h6>Show Time : 11.00 AM</h6>
