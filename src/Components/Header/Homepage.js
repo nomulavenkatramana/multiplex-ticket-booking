@@ -11,9 +11,12 @@ function Header(){
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><Link to="/earningReport" class="nav-link px-2 link-secondary">Earning Report</Link></li>
           <li><Link to="/addMovies" class="nav-link px-2 link-dark">Add Movies</Link></li>
-          {/* <li><Link to="/searchData"class="nav-link px-2 link-dark">SearchData</Link></li> */}
           <li><Link to="/Login" class="nav-link px-2 link-dark">Login</Link></li>
           <li><Link to="/Register" class="nav-link px-2 link-dark">Sign up</Link></li>
+          {/* <li><Link to="/details" class="nav-link px-2 link-dark">View details</Link></li> */}
+          {/* <li><Link to="/booking" class="nav-link px-2 link-dark">Booking</Link></li> */}
+          <li><Link to="/Register" class="nav-link px-2 link-dark">Sign up</Link></li>
+          <li><Link to="/seatBooking" class="nav-link px-2 link-dark">SeatBooking</Link></li>
          
         </ul>
 
