@@ -8,11 +8,11 @@ const[user , setuser] =useState ({
     movieid : "",
     movieName: "",   
     movie_Time : "",
-    Hall_Id : "",
+    
 
 });
 
-    const{  movieId, movieName, movie_Time, Hall_Id }=user;
+    const{  movieId, movieName, movie_Time,}=user;
 
     const onInputChange = e =>{
         setuser({ ...user,[e.target.name]:e.target.value});
@@ -37,7 +37,7 @@ const[user , setuser] =useState ({
                                type="text"
                                className="form-control form-control-lg"
                                placeholder="Enter Movie Id"
-                               name="movie_Id"
+                               name="movieId"
                                value={movieId}
                                onChange={e=> onInputChange(e)}
                                />
@@ -65,7 +65,7 @@ const[user , setuser] =useState ({
                                />
                          </div>
 
-                         <div className="form-group">
+                         {/* <div className="form-group">
                              <input
                                type="text"
                                className="form-control form-control-lg"
@@ -74,7 +74,7 @@ const[user , setuser] =useState ({
                                value={Hall_Id}
                                onChange={e=> onInputChange(e)}
                                />
-                         </div>
+                         </div> */}
                          <button className="btn btn-primary btn-block mt-3">Add Movies Details</button>
                      </form>
                  </div>

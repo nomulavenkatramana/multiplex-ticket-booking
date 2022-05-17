@@ -14,6 +14,8 @@ function Header(){
           {/* <li><Link to="/searchData"class="nav-link px-2 link-dark">SearchData</Link></li> */}
           <li><Link to="/Login" class="nav-link px-2 link-dark">Login</Link></li>
           <li><Link to="/Register" class="nav-link px-2 link-dark">Sign up</Link></li>
+          <li><Link to="/MovieComponent" class="nav-link px-2 link-dark">Movie Component</Link></li>
+          <li><Link to="/ViewDetails" class="nav-link px-2 link-dark">View Details</Link></li>
          
         </ul>
 
