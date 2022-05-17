@@ -8,7 +8,7 @@ import PaymentModal from '../PaymentModal/PaymentModal'
 import ViewDetails from '../Service/ViewDetails'
 import BookingList from '../BookingList/BookingList'
 import SeatBooking from '../BookingList/SeatBooking'
-import BookingPage from '../BookingList/BookingsPage'
+// import BookingPage from '../BookingList/BookingsPage'
 
 
 
@@ -24,7 +24,7 @@ function RoutesComp() {
                 <Route path="/details" element={<ViewDetails />} />
                 <Route path="/booking" element={<BookingList />} />
                 <Route path="/seatBooking" element={<SeatBooking/>} />
-                <Route path="/bookingPage" element={<BookingPage/>} />
+                {/* <Route path="/bookingPage" element={<BookingPage/>} /> */}
             </Routes>
 
         </div>
